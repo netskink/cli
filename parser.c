@@ -207,7 +207,7 @@ int parse_words(char **words, int word_cnt) {
 			found=0;
 			for (k=0; k<iNumVarUsed; k++) {
 				if (0 == strcmp(pVariableList[k].pName,token)) {
-					pVariable = pVariableList[k];
+					//pVariable = pVariableList[k];
 					found=1;
 					break;
 				}
@@ -220,7 +220,7 @@ int parse_words(char **words, int word_cnt) {
 
 		if (2==j) {
 			printf("%s is value\n",token);
-			iRC = doAssignment(pVariable,);
+			//iRC = doAssignment(pVariable,);
 		}
 	// See if it is an existing variable assignment
 	// word will be of form a=10
