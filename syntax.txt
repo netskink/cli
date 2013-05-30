@@ -1,0 +1,4 @@
+These are capabilities of the syntax
+
+set type variable-name [size]
+This command creates a variable 

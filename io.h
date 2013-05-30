@@ -1,0 +1,2 @@
+
+int prompt(void);
